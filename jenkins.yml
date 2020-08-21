@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ group_name }}"
+- hosts: "{{ ip-172-31-30-109.us-east-2.compute.internal }}"
   roles:
     -  ansible-java8-oracle
     -  jenkins
