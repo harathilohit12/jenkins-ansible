@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ group_name }}"
+- hosts: "{{ extra_var }}"
   roles:
     -  ansible-java8-oracle
     -  jenkins
